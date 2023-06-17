@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-    --primary-color:#c6ccb2;
-    --secondary-color:#093824;
-    --accent-color-1:#4A6FA5;
-    --accent-color-2:#090C9B;
+    --primary-color:#3c1742; /*title and heading text*/
+    --secondary-color:#66b2c9; /*????*/
+    --accent1-color:#eabb55; /*title box*/
+    --accent2-color:#5fcf9e;/*????*/
 
     --heading-font:"Poppins", serif;
     --paragraph-font:"Poppins", serif;
 
-    --nav-background-color:#C6CCB2;
-    --nav-link-color:#BC6C25;
-    --nav-hover-link-color:#3b2d11;
-    --nav-hover-background-color:#BDD9BF;
+    --nav-background-color:#eabb55;
+    --nav-link-color:#003e1f;
+    --nav-hover-link-color:#ba2d0b; /*????*/
+    --nav-hover-background-color:#ebebeb;
 }
 
 body {
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent-color-1);
+    background-color: var(--accent1-color);
 }
 
 p {
