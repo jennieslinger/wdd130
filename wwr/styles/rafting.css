@@ -37,6 +37,11 @@ h1 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ba2d0b;
+    max-width: 960px;
 }
 
 p {
@@ -57,4 +62,67 @@ article {
 article img {
     position: relative;
     float: right;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 100px 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #66b2c9;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: aqua;
+    border: 1px solid red;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+nav {
+    text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+section {
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+}
+
+article {
+    flex: 50px;
 }
