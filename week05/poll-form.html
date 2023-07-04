@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+    <link rel="stylesheet" href="styles.css/poll-form.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 | HTML Form - User Poll</title>
@@ -13,20 +14,31 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label>Full Name: <input type="text" id="fullename" name="fullename"></label>
-                <label>Email: <input type="email" id="useremail" name="useremail"></label>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullename">
+                </div>
+                <div class="form-item column2">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
-                <label for="browser">What is your favorite internet browser?</label>
-                <select name="browser" id="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="firefox">Firefox</option>
-                    <option value="edge">Edge</option>
-                    <option value="safari">Safari</option>
-                </select>
-                <label>Do you have a household pet? <input type="checkbox" id="pet" name="pet"></label>
-                <label>List the places you have lived: </label>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="edge">Edge</option>
+                        <option value="safari">Safari</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <label for="feedback">List the places you have lived: </label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Arizona, Utah, Nevada, California"></textarea>
             </fieldset>
             <fieldset>
