@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: darkred;
+    background: lightcyan;
+}
+
+header {
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    background-color: peachpuff;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 3px solid rgba(0, 0, 0, 0.1)
+}
+
+legend {
+    padding: 1rem;
+    color: darkblue;
+    font-size: 1.5em;
+}
+
+label, input, button, select, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: left;  
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: .8rem;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: peru;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: lavender;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 700px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    border-top: 1px solid darkolivegreen;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+ol {
+    margin-left: 2rem;
+}
