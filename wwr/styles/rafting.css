@@ -119,7 +119,8 @@ nav {
 
 section {
     display: flex;
-    align-items: right;
+    align-items:center;
+    text-align: center;
     justify-content: space-around;
 }
 
